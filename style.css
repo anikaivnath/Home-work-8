@@ -13,8 +13,10 @@ h2{
     display: flex;
     justify-content: space-between;
      padding: 10px 30px;
+     position: sticky;
+     top: 0;
 }
-a:hover{
+.cont a:hover{
     background-color: brown;
 
 }
@@ -72,4 +74,43 @@ nav .cont a {
     margin: 50px 80px;
     padding: 60px;
     background-color: rgb(236, 223, 188);
+}
+.Profile h2{
+    color: black;
+    text-align: center;
+}
+.Profile p{
+    text-align: justify;
+}
+.Profile{
+    border: solid;
+    margin: 50px 80px;
+    padding: 60px;
+    background-color: rgb(179, 156, 179);
+}
+.Log-out h2{
+    color: black;
+    text-align: center;
+}
+.Log-out p{
+    text-align: justify;
+}
+.Log-out{
+    border: solid;
+    margin: 50px 80px;
+    padding: 60px;
+    background-color: rgb(116, 109, 116);
+    
+}
+.btn i {
+    font-size: 25px;
+    color: black;
+    list-style-type: none;
+  }
+  #btn{
+    display: none; /* Hide initially */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* Ensure it stays above other content */
 }
